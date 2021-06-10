@@ -1,0 +1,43 @@
+
+.filtericon{
+    color: #3580C1;
+    font-size: 15px;
+    padding-right: 8px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    
+}
+.capsule{
+    margin: 0px 200px;
+}
+.maincapsules-active{
+    border-radius: 18px;
+    border: 1px solid #0084ff;
+    font-size: .75em;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(
+        269deg
+        ,#0048ff,#0096ff);
+        padding: 6px 16px;
+        width:auto;
+        font-family: Raleway,sans-serif;
+}
+.maincapsules{
+    border-radius: 18px;
+    border: 1px solid #0084ff;
+    font-size: .75em;
+    margin: 5px;
+    cursor: pointer;
+    color: #0084ff;
+    padding: 6px 14px;
+    width:auto;
+    font-family: Raleway,sans-serif;
+}
+.capcontainer{
+    display:flex;
+    flex-wrap: wrap;
+}

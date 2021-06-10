@@ -1,0 +1,111 @@
+.topbar{
+    
+    width: 100%;
+    height: 70px;
+   
+  
+    padding: 10px;
+    display: flex;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+    
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.1em;
+    margin-top: 0;
+    margin-left: 60px;
+    margin-bottom: -10px;
+    width: 200px;
+    font-weight: 900;
+    font-family: Raleway,sans-serif;
+    background-image: linear-gradient(
+269deg
+,#0048ff,#0096ff),linear-gradient(#000,#000);
+    color: #0084ff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.firstpart{
+   
+    display :flex;
+    align-items:center;
+    justify-content: space-around;
+    width:500px;
+}
+
+.secondpart{
+    margin-left: 100px;
+    display :flex;
+    align-items:center;
+    justify-content: space-around;
+    width:800px;
+}
+
+.button{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+   width:130px;
+    border-radius: 30px;
+    color:white;
+    font-size: 11px;
+    font-weight:800;
+    
+    
+    padding: 0.5em 2em;
+    margin: 0px 1em 0px 0px;
+    box-shadow: none;
+   
+    height: 32px;
+    margin-left: -90px;
+    margin-right: 50px;
+    background: #0084ff;
+    background: -webkit-linear-gradient(
+269deg
+,#0048ff,#0096ff);
+    background: -webkit-linear-gradient(
+181deg
+,#0048ff,#0096ff);
+    background: -o-linear-gradient(181deg,#0048ff,#0096ff);
+    background: linear-gradient(
+269deg
+,#0048ff,#0096ff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0084ff",endColorstr="#0052ff",GradientType=1);
+
+}
+.para{
+    width:350px;
+    opacity: .6;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    
+    color: rgba(0,0,0,.6);
+  
+}
+
+.icon{
+    font-size: 11px;
+}
+.explore{
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 60px;
+}
+.story{
+    margin: 0;
+   
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: .8;
+    letter-spacing: .9px;
+    color: #000;
+    margin-top:-5px;
+}
